@@ -32,3 +32,19 @@ def test_case_2():
         "What's your pet's name?\n",
         "Your band name could be Chengdu Ahuang\n",
     ]
+
+
+def test_case_3():
+
+    set_keyboard_input(["Changsha", "XiaoDo"])
+
+    band_name_generator()
+
+    output = get_display_output()
+
+    assert output == [
+        "Welcome to the Band Name Generator.",
+        "What's name of the city you grew up in?\n",
+        "What's your pet's name?\n",
+        "Your band name could be Chengdu Ahuang\n",
+    ]
