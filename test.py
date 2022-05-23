@@ -46,5 +46,5 @@ def test_case_3():
         "Welcome to the Band Name Generator.",
         "What's name of the city you grew up in?\n",
         "What's your pet's name?\n",
-        "Your band name could be Chengdu Ahuang\n",
+        "Your band name could be Changsha XiaoDo\n",
     ]
